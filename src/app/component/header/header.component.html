@@ -1,0 +1,20 @@
+<header>
+    <div class="navbar bg-primary shadow-sm">
+        <div class="navbar-brand logoSearch align-item-center d-flex">
+            <i style="font-size: 30px; color: white;" class="fas fa-shipping-fast ship">
+                <fa-icon [icon]="shipment"></fa-icon>&nbsp;
+            </i>
+            <strong style="font-size: 30px; color: white; ">Ecommerce</strong>
+            <div class="form-group">
+                <input type="text" class="form-control inpSearch" placeholder="Search items">
+            </div>
+            <span>
+                <fa-icon class="searchIco" [icon]="search"></fa-icon>
+            </span>
+        </div>
+        <button routerLink="cart" class="btn btn-primary cartbtn">
+            <fa-icon class="cartICo" [icon]="facart"></fa-icon>
+            <div  class="badge bg-danger">{{totalItem}}</div>
+        </button>
+    </div>
+</header>

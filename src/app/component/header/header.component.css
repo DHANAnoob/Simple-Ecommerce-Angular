@@ -1,0 +1,35 @@
+.inpSearch{
+    width: 600px;
+    outline: none;
+    /* border: 1px solid black; */
+    margin-left: 20px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.searchIco{
+    position: absolute;
+    left: 95%;
+    top: 20%;
+    font-size: 20px;
+}
+.cartICo{
+    font-size: 25px;
+    color: white;
+    /* background: rgb(255, 255, 255); */
+}
+.cartbtn{
+    background: none;
+    border: none;
+}
+.cartICo:hover{
+    color: rgb(255, 255, 255,0.9);
+}
+.badge{
+    font-size: 10px;
+}
+.logoSearch{
+    position: relative;
+    left: 5%;
+    color: rgb(0, 64, 255)
+}
